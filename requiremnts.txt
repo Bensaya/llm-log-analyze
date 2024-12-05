@@ -1,0 +1,6 @@
+llama-index-llms-ollama==0.4.1
+llama-index-readers-file==0.4.0
+llama-index-embeddings-ollama==0.4.0
+fastapi==0.115.5
+python-multipart==0.0.18
+uvicorn==0.32.1

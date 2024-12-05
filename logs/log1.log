@@ -1,0 +1,15 @@
+[Pipeline] {
+[Pipeline] stage
+[Pipeline]  stage { (Declarative: Checkout SCM)
+[Pipeline]    checkout scm
+[Pipeline]    git branch: '', changelog: false, poll: false, remote: {'origin': 'https://github.com/your-username/your-repo.git'}, submoduleCfg: [], tags: [], userRemoteConfigs: [], credentialsId: 'your-credentials-id'
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] }[Pipeline] {
+[Pipeline] stage
+[Pipeline]  stage { (Declarative: Checkout SCM)
+[Pipeline]    checkout scm
+[Pipeline]    git branch: '', changelog: false, poll: false, remote: {'origin': 'https://github.com/your-username/your-repo.git'}, submoduleCfg: [], tags: [], userRemoteConfigs: [], credentialsId: 'your-credentials-id'
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] }
